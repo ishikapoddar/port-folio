@@ -1,11 +1,10 @@
 import React from 'react';
-import {Typed} from 'react-typed';
+import {ReactTyped} from 'react-typed';
 
 function Hero() {
   return (
     <section
       className="relative flex flex-col md:flex-row h-screen items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/hero_bg.png')" }}
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-60"></div>
@@ -16,7 +15,7 @@ function Hero() {
           Hi, I'm <span className="text-white">Ishika Poddar</span>
         </h1>
         <p className="text-xl text-orange-300 mb-4">
-          <Typed
+          <ReactTyped
             strings={[
               'A passionate Software Developer who loves building cool stuff.',
               'BTech Graduate.',
